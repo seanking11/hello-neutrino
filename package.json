@@ -1,0 +1,20 @@
+{
+  "name": "hello-neutrino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "neutrino start --use neutrino-preset-react",
+    "build": "neutrino build --use neutrino-preset-react",
+    "test": "neutrino test --use neutrino-preset-react neutrino-preset-karma"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "neutrino": "^5.9.0",
+    "neutrino-preset-react": "^5.9.0"
+  },
+  "dependencies": {
+    "styled-components": "^2.1.0"
+  }
+}
